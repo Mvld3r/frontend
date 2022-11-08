@@ -1,4 +1,4 @@
-FROM nginxinc/nginx-unprivileged:1.23.2-alpine@sha256:e155e224717d324064a99f9f16557a0114f5040626f68452096a47650dfbfe51
+FROM nginxinc/nginx-unprivileged:1.23.2-alpine@sha256:3de4f5f72bad131a62ad9a34451b73d3a520b90fe7c1de08e6d27b5357f66130
 
 # Arguments that can be passed at build time
 ARG COMMIT_SHA=unknown
